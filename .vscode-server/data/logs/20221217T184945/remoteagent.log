@@ -1,0 +1,73 @@
+2022-12-17 18:49:45.194 [info] Extension host agent started.
+2022-12-17 18:49:45.270 [info] Started initializing default profile extensions in extensions installation folder. file:///home/myhuamobboss/.vscode-server/extensions
+2022-12-17 18:49:45.294 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/myhuamobboss/.vscode-server/extensions
+2022-12-17 18:49:45.479 [info] [127.0.0.1][fc17d088][ManagementConnection] New connection established.
+2022-12-17 18:49:45.626 [info] [127.0.0.1][76295d07][ExtensionHostConnection] New connection established.
+2022-12-17 18:49:45.636 [info] [127.0.0.1][76295d07][ExtensionHostConnection] <3216> Launched Extension Host Process.
+2022-12-17 18:50:12.736 [info] [127.0.0.1][fc17d088][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-17 18:50:12.750 [info] [127.0.0.1][76295d07][ExtensionHostConnection] <3216> Extension Host Process exited with code: 0, signal: null.
+2022-12-17 18:50:12.750 [info] Last EH closed, waiting before shutting down
+2022-12-17 18:50:26.998 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-17 18:50:26.998 [info] Cancelling previous shutdown timeout
+2022-12-17 18:50:27.314 [info] [127.0.0.1][f6e06394][ManagementConnection] New connection established.
+2022-12-17 18:50:27.497 [info] [127.0.0.1][13246009][ExtensionHostConnection] New connection established.
+2022-12-17 18:50:27.508 [info] [127.0.0.1][13246009][ExtensionHostConnection] <3377> Launched Extension Host Process.
+2022-12-17 18:50:42.632 [info] [127.0.0.1][f6e06394][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-17 18:50:42.649 [info] [127.0.0.1][13246009][ExtensionHostConnection] <3377> Extension Host Process exited with code: 0, signal: null.
+2022-12-17 18:50:42.649 [info] Cancelling previous shutdown timeout
+2022-12-17 18:50:42.649 [info] Last EH closed, waiting before shutting down
+2022-12-17 18:50:45.183 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-17 18:50:45.183 [info] Cancelling previous shutdown timeout
+2022-12-17 18:50:45.420 [info] [127.0.0.1][844813cd][ManagementConnection] New connection established.
+2022-12-17 18:50:45.615 [info] [127.0.0.1][d8fc3839][ExtensionHostConnection] New connection established.
+2022-12-17 18:50:45.629 [info] [127.0.0.1][d8fc3839][ExtensionHostConnection] <3534> Launched Extension Host Process.
+2022-12-17 18:51:35.270 [info] [127.0.0.1][844813cd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-17 18:51:35.284 [info] [127.0.0.1][d8fc3839][ExtensionHostConnection] <3534> Extension Host Process exited with code: 0, signal: null.
+2022-12-17 18:51:35.284 [info] Cancelling previous shutdown timeout
+2022-12-17 18:51:35.285 [info] Last EH closed, waiting before shutting down
+2022-12-17 18:51:38.084 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-17 18:51:38.084 [info] Cancelling previous shutdown timeout
+2022-12-17 18:51:38.357 [info] [127.0.0.1][0624c8c1][ManagementConnection] New connection established.
+2022-12-17 18:51:38.714 [info] [127.0.0.1][22b7030d][ExtensionHostConnection] New connection established.
+2022-12-17 18:51:38.730 [info] [127.0.0.1][22b7030d][ExtensionHostConnection] <3696> Launched Extension Host Process.
+2022-12-17 18:51:57.723 [info] Getting Manifest... golang.go
+2022-12-17 18:51:57.864 [info] Installing extension: golang.go
+2022-12-17 18:51:58.332 [info] Extracted extension to /home/myhuamobboss/.vscode-server/extensions/.0f9682c6-0e67-41d6-ae7d-805f5cc8245e: golang.go
+2022-12-17 18:51:58.340 [info] Renamed to /home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0
+2022-12-17 18:51:58.342 [info] Extracting completed. golang.go
+2022-12-17 18:51:58.347 [info] Extension installed successfully: golang.go
+2022-12-17 18:52:57.300 [info] Uninstalling extension from the profile: golang.go@0.36.0 file:///home/myhuamobboss/.vscode-server/data/User/extensions.json
+2022-12-17 18:52:57.316 [info] Marked extension as uninstalled golang.go-0.36.0
+2022-12-17 18:52:57.424 [info] Successfully uninstalled extension from the profile golang.go@0.36.0 file:///home/myhuamobboss/.vscode-server/data/User/extensions.json
+2022-12-17 18:53:02.910 [info] Getting Manifest... golang.go
+2022-12-17 18:53:02.985 [info] Installing extension: golang.go
+2022-12-17 18:53:03.184 [info] Removed the extension from uninstalled list: golang.go
+2022-12-17 18:53:03.197 [info] Extension installed successfully: golang.go
+2022-12-17 18:56:38.085 [info] New EH opened, aborting shutdown
+2022-12-17 19:09:43.349 [info] [127.0.0.1][22b7030d][ExtensionHostConnection] The client has reconnected.
+2022-12-17 20:32:00.872 [info] [127.0.0.1][0624c8c1][ManagementConnection] The client has reconnected.
+2022-12-17 20:32:01.002 [info] [127.0.0.1][22b7030d][ExtensionHostConnection] The client has reconnected.
+2022-12-17 20:40:02.006 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2022-12-17 20:40:02.007 [info] [127.0.0.1][0624c8c1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2022-12-17 21:34:08.424 [info] [127.0.0.1][0624c8c1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2022-12-17 21:34:08.425 [info] [127.0.0.1][0624c8c1][ManagementConnection] The client has reconnected.
+2022-12-17 21:34:08.577 [info] [127.0.0.1][22b7030d][ExtensionHostConnection] The client has reconnected.
+2022-12-17 22:39:01.975 [info] [127.0.0.1][0624c8c1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-17 22:39:02.082 [info] [127.0.0.1][22b7030d][ExtensionHostConnection] <3696> Extension Host Process exited with code: 0, signal: null.
+2022-12-17 22:39:02.082 [info] Last EH closed, waiting before shutting down
+2022-12-17 22:39:17.440 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-17 22:39:17.440 [info] Cancelling previous shutdown timeout
+2022-12-17 22:39:17.814 [info] [127.0.0.1][2720b37c][ManagementConnection] New connection established.
+2022-12-17 22:39:17.954 [info] [127.0.0.1][b8981dc5][ExtensionHostConnection] New connection established.
+2022-12-17 22:39:17.981 [info] [127.0.0.1][b8981dc5][ExtensionHostConnection] <30641> Launched Extension Host Process.
+2022-12-17 22:44:17.442 [info] New EH opened, aborting shutdown
+2022-12-17 23:20:32.603 [info] Getting Manifest... golang.go-nightly
+2022-12-17 23:20:32.743 [info] Installing extension: golang.go-nightly
+2022-12-17 23:20:33.268 [info] Extracted extension to /home/myhuamobboss/.vscode-server/extensions/.c61a3bb0-5cc1-4f18-beb8-ba0b928ab2f9: golang.go-nightly
+2022-12-17 23:20:33.275 [info] Renamed to /home/myhuamobboss/.vscode-server/extensions/golang.go-nightly-2022.12.1322
+2022-12-17 23:20:33.278 [info] Extracting completed. golang.go-nightly
+2022-12-17 23:20:33.283 [info] Extension installed successfully: golang.go-nightly
+2022-12-17 23:20:44.380 [info] Uninstalling extension from the profile: golang.go-nightly@2022.12.1322 file:///home/myhuamobboss/.vscode-server/data/User/extensions.json
+2022-12-17 23:20:44.402 [info] Marked extension as uninstalled golang.go-nightly-2022.12.1322
+2022-12-17 23:20:44.507 [info] Successfully uninstalled extension from the profile golang.go-nightly@2022.12.1322 file:///home/myhuamobboss/.vscode-server/data/User/extensions.json

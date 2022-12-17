@@ -1,0 +1,148 @@
+2022-12-17 18:51:39.553 [info] Extension host with pid 3696 started
+2022-12-17 18:51:39.589 [info] Lock '/home/myhuamobboss/.vscode-server/data/User/workspaceStorage/025036779a3188e9d6d0917040f3c018/vscode.lock': Lock acquired.
+2022-12-17 18:51:39.696 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2022-12-17 18:51:39.840 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-17 18:51:39.952 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:51:39.952 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:51:39.953 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:51:39.953 [info] Eager extensions activated
+2022-12-17 18:51:43.075 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2022-12-17 19:17:49.449 [error] Error: read ECONNRESET
+	at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2022-12-17 22:13:05.654 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2022-12-17 22:19:42.900 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-17 22:19:42.900 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-17 22:19:42.901 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-17 22:19:43.450 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2022-12-17 22:19:43.450 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2022-12-17 22:19:43.651 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2022-12-17 22:19:43.801 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2022-12-17 22:19:43.802 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2022-12-17 22:19:43.802 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:19:43.808 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:19:43.808 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:19:43.808 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:23:02.087 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:23:02.164 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:23:02.189 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:23:02.189 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:23:02.189 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:23:49.981 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:23:50.142 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:23:50.160 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:23:50.160 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:23:50.160 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:24:13.599 [error] [golang.go] provider FAILED
+2022-12-17 22:24:13.599 [error] Error: package does not import appstore/model
+	at handleResponse (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2022-12-17 22:24:31.849 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:24:31.928 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:24:31.948 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:24:31.948 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:24:31.948 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:24:39.285 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:24:39.522 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:24:39.543 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:24:39.543 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:24:39.544 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:25:10.534 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:25:10.535 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:25:10.550 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:25:10.550 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:25:10.550 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:25:31.816 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:25:31.817 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:25:31.835 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:25:31.836 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:25:31.836 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:25:47.151 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:25:47.153 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:25:47.172 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:25:47.173 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:25:47.173 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:25:50.530 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:25:50.531 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:25:50.552 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:25:50.552 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:25:50.552 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:25:53.258 [error] [golang.go] provider FAILED
+2022-12-17 22:25:53.259 [error] Error: no packages for non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod (go.mod)
+	at handleResponse (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2022-12-17 22:25:53.997 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:25:53.998 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:25:54.017 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:25:54.017 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:25:54.017 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:37:04.727 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:37:04.729 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:37:04.749 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:37:04.750 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:37:04.750 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:37:32.293 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:37:32.295 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:37:32.312 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:37:32.312 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:37:32.312 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:37:33.597 [error] [golang.go] provider FAILED
+2022-12-17 22:37:33.598 [error] Error: no identifier found
+	at handleResponse (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2022-12-17 22:37:33.982 [error] [golang.go] provider FAILED
+2022-12-17 22:37:33.982 [error] Error: no identifier found
+	at handleResponse (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2022-12-17 22:37:40.815 [error] [golang.go] provider FAILED
+2022-12-17 22:37:40.815 [error] Error: package does not import gorilla/mux
+	at handleResponse (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2022-12-17 22:37:42.501 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:37:42.502 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:37:42.522 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:37:42.522 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:37:42.522 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:37:46.448 [error] [golang.go] provider FAILED
+2022-12-17 22:37:46.448 [error] Error: no packages for non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod (go.mod)
+	at handleResponse (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4470:40)
+	at processMessageQueue (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4293:13)
+	at Immediate.<anonymous> (/home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0/dist/goMain.js:4279:11)
+	at processImmediate (node:internal/timers:466:21)
+2022-12-17 22:37:47.308 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:37:47.309 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:37:47.329 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:37:47.329 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:37:47.329 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:38:02.728 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:38:02.730 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:38:02.747 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:38:02.747 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:38:02.747 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:38:03.748 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:38:03.749 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:38:03.770 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:38:03.770 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:38:03.770 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:38:10.334 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:38:10.335 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:38:10.355 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:38:10.355 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:38:10.355 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:38:32.825 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 22:38:32.833 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 22:38:32.851 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 22:38:32.852 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 22:38:32.852 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 22:39:01.970 [info] Extension host terminating: received terminate message from renderer
+2022-12-17 22:39:01.971 [info] Lock '/home/myhuamobboss/.vscode-server/data/User/workspaceStorage/025036779a3188e9d6d0917040f3c018/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-17 22:39:02.059 [info] Extension host with pid 3696 exiting with code 0

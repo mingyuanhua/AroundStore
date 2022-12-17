@@ -1,0 +1,2520 @@
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go env for /home/myhuamobboss
+(root /home/myhuamobboss)
+(go version go version go1.19.4 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GONOPROXY=
+GOSUMDB=sum.golang.org
+GOWORK=
+GOCACHE=/home/myhuamobboss/.cache/go-build
+GOINSECURE=
+GOPATH=/home/myhuamobboss/go
+GO111MODULE=
+GOROOT=/usr/lib/go-1.19
+GOFLAGS=
+GOPROXY=https://proxy.golang.org,direct
+GOMOD=/dev/null
+GONOSUMDB=
+GOPRIVATE=
+GOMODCACHE=/home/myhuamobboss/go/pkg/mod
+
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/myhuamobboss
+	query=[./ builtin]
+	packages=2
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #1: updating metadata for 0 packages
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #2
+	snapshot=1
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/appstore/main.go]
+	packages=1
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #2
+	snapshot=1
+	directory=file:///home/myhuamobboss
+	package="appstore"
+	files=[/home/myhuamobboss/go/src/appstore/main.go]
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #2: updating metadata for 41 packages
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #3
+	snapshot=1
+	directory=file:///home/myhuamobboss
+	package="appstore"
+	files=[/home/myhuamobboss/go/src/appstore/main.go]
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #3
+	snapshot=1
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/appstore/main.go]
+	packages=1
+
+[Info  - 10:13:43 PM] 2022/12/17 22:13:43 go/packages.Load #3: updating metadata for 0 packages
+
+[Info  - 10:14:13 PM] 2022/12/17 22:14:13 background imports cache refresh starting
+
+[Info  - 10:14:13 PM] 2022/12/17 22:14:13 background refresh finished after 6.076202ms
+
+[Info  - 10:15:06 PM] 2022/12/17 22:15:06 go/packages.Load #4: updating metadata for 1 packages
+
+[Info  - 10:15:06 PM] 2022/12/17 22:15:06 go/packages.Load #4
+	snapshot=6
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:15:06 PM] 2022/12/17 22:15:06 go/packages.Load #4
+	snapshot=6
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:15:06 PM] 2022/12/17 22:15:06 go/packages.Load #5
+	snapshot=6
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:15:06 PM] 2022/12/17 22:15:06 go/packages.Load #5
+	snapshot=6
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:15:06 PM] 2022/12/17 22:15:06 go/packages.Load #5: updating metadata for 0 packages
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #6
+	snapshot=7
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #6: updating metadata for 0 packages
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #7
+	snapshot=7
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #7: updating metadata for 0 packages
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #8
+	snapshot=7
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #8: updating metadata for 0 packages
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #9
+	snapshot=8
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #9: updating metadata for 0 packages
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #10
+	snapshot=8
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #10: updating metadata for 0 packages
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #11
+	snapshot=8
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:07 PM] 2022/12/17 22:15:07 go/packages.Load #11: updating metadata for 0 packages
+
+[Info  - 10:15:29 PM] 2022/12/17 22:15:29 go/packages.Load #12
+	snapshot=9
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:29 PM] 2022/12/17 22:15:29 go/packages.Load #12: updating metadata for 0 packages
+
+[Info  - 10:15:29 PM] 2022/12/17 22:15:29 go/packages.Load #13
+	snapshot=9
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:29 PM] 2022/12/17 22:15:29 go/packages.Load #13: updating metadata for 0 packages
+
+[Info  - 10:15:29 PM] 2022/12/17 22:15:29 go/packages.Load #14
+	snapshot=9
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:15:29 PM] 2022/12/17 22:15:29 go/packages.Load #14: updating metadata for 0 packages
+
+[Info  - 10:15:36 PM] 2022/12/17 22:15:36 background imports cache refresh starting
+
+[Info  - 10:15:36 PM] 2022/12/17 22:15:36 background refresh finished after 448.675µs
+
+[Error - 10:16:04 PM] 2022/12/17 22:16:04 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod
+	URI=file:///home/myhuamobboss/go/src/aroundstore/go.mod
+
+[Info  - 10:16:05 PM] 2022/12/17 22:16:05 go/packages.Load #15
+	snapshot=10
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:16:05 PM] 2022/12/17 22:16:05 go/packages.Load #15: updating metadata for 0 packages
+
+[Info  - 10:16:05 PM] 2022/12/17 22:16:05 go/packages.Load #16
+	snapshot=10
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:16:05 PM] 2022/12/17 22:16:05 go/packages.Load #16: updating metadata for 0 packages
+
+[Info  - 10:16:05 PM] 2022/12/17 22:16:05 go/packages.Load #17
+	snapshot=10
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:16:05 PM] 2022/12/17 22:16:05 go/packages.Load #17: updating metadata for 0 packages
+
+[Info  - 10:16:39 PM] 2022/12/17 22:16:39 background imports cache refresh starting
+
+[Info  - 10:16:39 PM] 2022/12/17 22:16:39 background refresh finished after 463.525µs
+
+[Info  - 10:18:03 PM] 2022/12/17 22:18:03 go/packages.Load #18
+	snapshot=11
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:18:03 PM] 2022/12/17 22:18:03 go/packages.Load #18: updating metadata for 0 packages
+
+[Info  - 10:18:03 PM] 2022/12/17 22:18:03 go/packages.Load #19
+	snapshot=11
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:18:03 PM] 2022/12/17 22:18:03 go/packages.Load #19: updating metadata for 0 packages
+
+[Info  - 10:18:03 PM] 2022/12/17 22:18:03 go/packages.Load #20
+	snapshot=11
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:18:03 PM] 2022/12/17 22:18:03 go/packages.Load #20: updating metadata for 0 packages
+
+[Info  - 10:18:33 PM] 2022/12/17 22:18:33 background imports cache refresh starting
+
+[Info  - 10:18:33 PM] 2022/12/17 22:18:33 background refresh finished after 579.832µs
+
+[Info  - 10:19:43 PM] 2022/12/17 22:19:43 go/packages.Load #21
+	snapshot=11
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:19:43 PM] 2022/12/17 22:19:43 go/packages.Load #21: updating metadata for 0 packages
+
+[Info  - 10:19:43 PM] 2022/12/17 22:19:43 go/packages.Load #22
+	snapshot=11
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:19:43 PM] 2022/12/17 22:19:43 go/packages.Load #22: updating metadata for 0 packages
+
+[Info  - 10:19:43 PM] 2022/12/17 22:19:43 go/packages.Load #23
+	snapshot=11
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:19:43 PM] 2022/12/17 22:19:43 go/packages.Load #23: updating metadata for 0 packages
+
+[Info  - 10:22:35 PM] 2022/12/17 22:22:35 go/packages.Load #24
+	snapshot=12
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:22:35 PM] 2022/12/17 22:22:35 go/packages.Load #24: updating metadata for 0 packages
+
+[Info  - 10:22:35 PM] 2022/12/17 22:22:35 go/packages.Load #25
+	snapshot=12
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:22:35 PM] 2022/12/17 22:22:35 go/packages.Load #25: updating metadata for 0 packages
+
+[Info  - 10:22:35 PM] 2022/12/17 22:22:35 go/packages.Load #26
+	snapshot=12
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:22:35 PM] 2022/12/17 22:22:35 go/packages.Load #26: updating metadata for 0 packages
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #27
+	snapshot=13
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/model/model.go]
+	packages=1
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #27
+	snapshot=13
+	directory=file:///home/myhuamobboss
+	package="aroundstore/model"
+	files=[/home/myhuamobboss/go/src/aroundstore/model/model.go]
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #27: updating metadata for 1 packages
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #28
+	snapshot=13
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/model/model.go]
+	packages=1
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #28
+	snapshot=13
+	directory=file:///home/myhuamobboss
+	package="aroundstore/model"
+	files=[/home/myhuamobboss/go/src/aroundstore/model/model.go]
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #28: updating metadata for 0 packages
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #29
+	snapshot=14
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #29: updating metadata for 0 packages
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #30: updating metadata for 0 packages
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #30
+	snapshot=14
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #31
+	snapshot=14
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:02 PM] 2022/12/17 22:23:02 go/packages.Load #31: updating metadata for 0 packages
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #32
+	snapshot=15
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/model/model.go]
+	packages=1
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #32
+	snapshot=15
+	directory=file:///home/myhuamobboss
+	package="aroundstore/model"
+	files=[/home/myhuamobboss/go/src/aroundstore/model/model.go]
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #32: updating metadata for 1 packages
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #33
+	snapshot=15
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #33: updating metadata for 0 packages
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #34
+	snapshot=15
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #34: updating metadata for 0 packages
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #35
+	snapshot=15
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:17 PM] 2022/12/17 22:23:17 go/packages.Load #35: updating metadata for 0 packages
+
+[Info  - 10:23:18 PM] 2022/12/17 22:23:18 go/packages.Load #36
+	snapshot=16
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:18 PM] 2022/12/17 22:23:18 go/packages.Load #36: updating metadata for 0 packages
+
+[Info  - 10:23:18 PM] 2022/12/17 22:23:18 go/packages.Load #37
+	snapshot=16
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:18 PM] 2022/12/17 22:23:18 go/packages.Load #37: updating metadata for 0 packages
+
+[Info  - 10:23:18 PM] 2022/12/17 22:23:18 go/packages.Load #38
+	snapshot=16
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:18 PM] 2022/12/17 22:23:18 go/packages.Load #38: updating metadata for 0 packages
+
+[Info  - 10:23:19 PM] 2022/12/17 22:23:19 go/packages.Load #39
+	snapshot=17
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:19 PM] 2022/12/17 22:23:19 go/packages.Load #39: updating metadata for 0 packages
+
+[Info  - 10:23:19 PM] 2022/12/17 22:23:19 go/packages.Load #40
+	snapshot=17
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:19 PM] 2022/12/17 22:23:19 go/packages.Load #40: updating metadata for 0 packages
+
+[Info  - 10:23:19 PM] 2022/12/17 22:23:19 go/packages.Load #41
+	snapshot=17
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:19 PM] 2022/12/17 22:23:19 go/packages.Load #41: updating metadata for 0 packages
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #42
+	snapshot=18
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #42
+	snapshot=18
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #42: updating metadata for 1 packages
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #43
+	snapshot=18
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #43
+	snapshot=18
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #43: updating metadata for 0 packages
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #44
+	snapshot=19
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #44: updating metadata for 0 packages
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #45
+	snapshot=19
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #45: updating metadata for 0 packages
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #46
+	snapshot=19
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:50 PM] 2022/12/17 22:23:50 go/packages.Load #46: updating metadata for 0 packages
+
+[Info  - 10:23:57 PM] 2022/12/17 22:23:57 go/packages.Load #48
+	snapshot=20
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:23:57 PM] 2022/12/17 22:23:57 go/packages.Load #48
+	snapshot=20
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:23:57 PM] 2022/12/17 22:23:57 go/packages.Load #48: updating metadata for 88 packages
+
+[Info  - 10:23:57 PM] 2022/12/17 22:23:57 go/packages.Load #47
+	snapshot=20
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:23:57 PM] 2022/12/17 22:23:57 go/packages.Load #47
+	snapshot=20
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:23:57 PM] 2022/12/17 22:23:57 go/packages.Load #47: updating metadata for 0 packages
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #49
+	snapshot=22
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #49
+	snapshot=22
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #49: updating metadata for 1 packages
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #50
+	snapshot=22
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #50: updating metadata for 0 packages
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #51
+	snapshot=22
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #51: updating metadata for 0 packages
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #52
+	snapshot=22
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:23:58 PM] 2022/12/17 22:23:58 go/packages.Load #52: updating metadata for 0 packages
+
+[Error - 10:23:58 PM] 2022/12/17 22:23:58 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=22
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:12 PM] 2022/12/17 22:24:12 go/packages.Load #53
+	snapshot=24
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:12 PM] 2022/12/17 22:24:12 go/packages.Load #53: updating metadata for 0 packages
+
+[Info  - 10:24:13 PM] 2022/12/17 22:24:13 go/packages.Load #55
+	snapshot=25
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:13 PM] 2022/12/17 22:24:13 go/packages.Load #55: updating metadata for 0 packages
+
+[Info  - 10:24:13 PM] 2022/12/17 22:24:13 go/packages.Load #56
+	snapshot=25
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:13 PM] 2022/12/17 22:24:13 go/packages.Load #56: updating metadata for 0 packages
+
+[Info  - 10:24:13 PM] 2022/12/17 22:24:13 go/packages.Load #57: updating metadata for 0 packages
+
+[Info  - 10:24:13 PM] 2022/12/17 22:24:13 go/packages.Load #57
+	snapshot=25
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Error - 10:24:13 PM] 2022/12/17 22:24:13 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=25
+	directory=file:///home/myhuamobboss
+
+[Error - 10:24:13 PM] Request textDocument/definition failed.
+  Message: package does not import appstore/model
+  Code: 0 
+[Info  - 10:24:14 PM] 2022/12/17 22:24:14 go/packages.Load #58
+	snapshot=27
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:14 PM] 2022/12/17 22:24:14 go/packages.Load #58: updating metadata for 0 packages
+
+[Info  - 10:24:14 PM] 2022/12/17 22:24:14 go/packages.Load #59
+	snapshot=27
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:14 PM] 2022/12/17 22:24:14 go/packages.Load #59: updating metadata for 0 packages
+
+[Info  - 10:24:14 PM] 2022/12/17 22:24:14 go/packages.Load #60
+	snapshot=27
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:14 PM] 2022/12/17 22:24:14 go/packages.Load #60: updating metadata for 0 packages
+
+[Error - 10:24:14 PM] 2022/12/17 22:24:14 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=27
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #63: updating metadata for 0 packages
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #63
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #62
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #62
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #62: updating metadata for 1 packages
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #64
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #64
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #64: updating metadata for 0 packages
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #65
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #65: updating metadata for 0 packages
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #66
+	snapshot=30
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:15 PM] 2022/12/17 22:24:15 go/packages.Load #66: updating metadata for 0 packages
+
+[Error - 10:24:15 PM] 2022/12/17 22:24:15 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=30
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #71
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #71
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #71: updating metadata for 1 packages
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #72
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #72
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #72: updating metadata for 0 packages
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #73
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #73: updating metadata for 0 packages
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #74
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #74: updating metadata for 0 packages
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #75
+	snapshot=35
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:20 PM] 2022/12/17 22:24:20 go/packages.Load #75: updating metadata for 0 packages
+
+[Error - 10:24:20 PM] 2022/12/17 22:24:20 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=35
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:21 PM] 2022/12/17 22:24:21 go/packages.Load #76
+	snapshot=36
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:21 PM] 2022/12/17 22:24:21 go/packages.Load #76: updating metadata for 0 packages
+
+[Info  - 10:24:21 PM] 2022/12/17 22:24:21 go/packages.Load #77
+	snapshot=36
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:21 PM] 2022/12/17 22:24:21 go/packages.Load #77: updating metadata for 0 packages
+
+[Info  - 10:24:21 PM] 2022/12/17 22:24:21 go/packages.Load #78
+	snapshot=36
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:21 PM] 2022/12/17 22:24:21 go/packages.Load #78: updating metadata for 0 packages
+
+[Error - 10:24:21 PM] 2022/12/17 22:24:21 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=36
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:22 PM] 2022/12/17 22:24:22 go/packages.Load #79
+	snapshot=39
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:22 PM] 2022/12/17 22:24:22 go/packages.Load #79: updating metadata for 0 packages
+
+[Info  - 10:24:22 PM] 2022/12/17 22:24:22 go/packages.Load #80
+	snapshot=39
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:22 PM] 2022/12/17 22:24:22 go/packages.Load #80: updating metadata for 0 packages
+
+[Info  - 10:24:22 PM] 2022/12/17 22:24:22 go/packages.Load #81
+	snapshot=39
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:22 PM] 2022/12/17 22:24:22 go/packages.Load #81: updating metadata for 0 packages
+
+[Error - 10:24:22 PM] 2022/12/17 22:24:22 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=39
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:25 PM] 2022/12/17 22:24:25 background imports cache refresh starting
+
+[Info  - 10:24:25 PM] 2022/12/17 22:24:25 background refresh finished after 686.509µs
+
+[Error - 10:24:31 PM] 2022/12/17 22:24:31 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod
+	URI=file:///home/myhuamobboss/go/src/aroundstore/go.mod
+
+[Info  - 10:24:32 PM] 2022/12/17 22:24:32 go/packages.Load #82
+	snapshot=40
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:32 PM] 2022/12/17 22:24:32 go/packages.Load #82: updating metadata for 0 packages
+
+[Info  - 10:24:32 PM] 2022/12/17 22:24:32 go/packages.Load #83
+	snapshot=40
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:32 PM] 2022/12/17 22:24:32 go/packages.Load #83: updating metadata for 0 packages
+
+[Info  - 10:24:32 PM] 2022/12/17 22:24:32 go/packages.Load #84
+	snapshot=40
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:32 PM] 2022/12/17 22:24:32 go/packages.Load #84: updating metadata for 0 packages
+
+[Error - 10:24:32 PM] 2022/12/17 22:24:32 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=40
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:39 PM] 2022/12/17 22:24:39 go/packages.Load #85
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:24:39 PM] 2022/12/17 22:24:39 go/packages.Load #85
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:24:39 PM] 2022/12/17 22:24:39 go/packages.Load #85: updating metadata for 1 packages
+
+[Error - 10:24:39 PM] 2022/12/17 22:24:39 unable to compute positions for type errors: type error ("package ; expected handler", code 3, go116=true) without position
+	package="aroundstore/handler"
+
+[Info  - 10:24:39 PM] 2022/12/17 22:24:39 go/packages.Load #86
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:24:39 PM] 2022/12/17 22:24:39 go/packages.Load #86
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:24:39 PM] 2022/12/17 22:24:39 go/packages.Load #86: updating metadata for 0 packages
+
+[Info  - 10:24:40 PM] 2022/12/17 22:24:40 go/packages.Load #87
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:40 PM] 2022/12/17 22:24:40 go/packages.Load #87: updating metadata for 0 packages
+
+[Info  - 10:24:40 PM] 2022/12/17 22:24:40 go/packages.Load #88
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:40 PM] 2022/12/17 22:24:40 go/packages.Load #88: updating metadata for 0 packages
+
+[Info  - 10:24:40 PM] 2022/12/17 22:24:40 go/packages.Load #89
+	snapshot=42
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:40 PM] 2022/12/17 22:24:40 go/packages.Load #89: updating metadata for 0 packages
+
+[Error - 10:24:40 PM] 2022/12/17 22:24:40 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=42
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #90
+	snapshot=43
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #90
+	snapshot=43
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #90: updating metadata for 1 packages
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #91
+	snapshot=43
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #91: updating metadata for 0 packages
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #92
+	snapshot=43
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #92: updating metadata for 0 packages
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #93
+	snapshot=43
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:47 PM] 2022/12/17 22:24:47 go/packages.Load #93: updating metadata for 0 packages
+
+[Error - 10:24:47 PM] 2022/12/17 22:24:47 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=43
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #94
+	snapshot=45
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #94: updating metadata for 0 packages
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #95
+	snapshot=45
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #95: updating metadata for 0 packages
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #96
+	snapshot=45
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #96: updating metadata for 0 packages
+
+[Error - 10:24:48 PM] 2022/12/17 22:24:48 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=45
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #97
+	snapshot=46
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #97: updating metadata for 0 packages
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #98
+	snapshot=46
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #98: updating metadata for 0 packages
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #99
+	snapshot=46
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:48 PM] 2022/12/17 22:24:48 go/packages.Load #99: updating metadata for 0 packages
+
+[Error - 10:24:48 PM] 2022/12/17 22:24:48 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=46
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #100
+	snapshot=47
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #100
+	snapshot=47
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #100: updating metadata for 1 packages
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #101
+	snapshot=47
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #101: updating metadata for 0 packages
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #102
+	snapshot=47
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #102: updating metadata for 0 packages
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #103
+	snapshot=47
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:24:49 PM] 2022/12/17 22:24:49 go/packages.Load #103: updating metadata for 0 packages
+
+[Error - 10:24:49 PM] 2022/12/17 22:24:49 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=47
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #104
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #104
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #104: updating metadata for 1 packages
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #105
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #105
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #105: updating metadata for 0 packages
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #106
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #106: updating metadata for 0 packages
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #107
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #107: updating metadata for 0 packages
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #108
+	snapshot=48
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:12 PM] 2022/12/17 22:25:12 go/packages.Load #108: updating metadata for 0 packages
+
+[Error - 10:25:12 PM] 2022/12/17 22:25:12 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=48
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #109
+	snapshot=49
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #109: updating metadata for 0 packages
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #110
+	snapshot=49
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #110: updating metadata for 0 packages
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #111
+	snapshot=49
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #111: updating metadata for 0 packages
+
+[Error - 10:25:13 PM] 2022/12/17 22:25:13 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=49
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #112
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #112
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:13 PM] 2022/12/17 22:25:13 go/packages.Load #112: updating metadata for 1 packages
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #115
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #115
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #115: updating metadata for 0 packages
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #116
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #116: updating metadata for 0 packages
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/handler/app.go file:///home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #117
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #117
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #117: updating metadata for 1 packages
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #118
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #118: updating metadata for 0 packages
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #119
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:14 PM] 2022/12/17 22:25:14 go/packages.Load #119: updating metadata for 0 packages
+
+[Error - 10:25:14 PM] 2022/12/17 22:25:14 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=50
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:15 PM] 2022/12/17 22:25:15 go/packages.Load #124
+	snapshot=55
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:25:15 PM] 2022/12/17 22:25:15 go/packages.Load #124
+	snapshot=55
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:15 PM] 2022/12/17 22:25:15 go/packages.Load #124: updating metadata for 1 packages
+
+[Info  - 10:25:15 PM] 2022/12/17 22:25:15 go/packages.Load #125
+	snapshot=55
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:15 PM] 2022/12/17 22:25:15 go/packages.Load #125: updating metadata for 0 packages
+
+[Info  - 10:25:16 PM] 2022/12/17 22:25:16 go/packages.Load #126
+	snapshot=55
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:16 PM] 2022/12/17 22:25:16 go/packages.Load #126: updating metadata for 0 packages
+
+[Info  - 10:25:16 PM] 2022/12/17 22:25:16 go/packages.Load #127
+	snapshot=55
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:16 PM] 2022/12/17 22:25:16 go/packages.Load #127: updating metadata for 0 packages
+
+[Error - 10:25:16 PM] 2022/12/17 22:25:16 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=55
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #128
+	snapshot=56
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #128: updating metadata for 0 packages
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #129
+	snapshot=56
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #129: updating metadata for 0 packages
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #130
+	snapshot=56
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #130: updating metadata for 0 packages
+
+[Error - 10:25:17 PM] 2022/12/17 22:25:17 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=56
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #131
+	snapshot=57
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #131: updating metadata for 0 packages
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #132
+	snapshot=57
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #132: updating metadata for 0 packages
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #133
+	snapshot=57
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:17 PM] 2022/12/17 22:25:17 go/packages.Load #133: updating metadata for 0 packages
+
+[Error - 10:25:17 PM] 2022/12/17 22:25:17 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=57
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:18 PM] 2022/12/17 22:25:18 background imports cache refresh starting
+
+[Info  - 10:25:18 PM] 2022/12/17 22:25:18 background refresh finished after 608.119µs
+
+[Error - 10:25:53 PM] Request textDocument/definition failed.
+  Message: no packages for non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod (go.mod)
+  Code: 0 
+[Info  - 10:25:57 PM] 2022/12/17 22:25:57 go/packages.Load #134
+	snapshot=58
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:57 PM] 2022/12/17 22:25:57 go/packages.Load #134: updating metadata for 0 packages
+
+[Info  - 10:25:57 PM] 2022/12/17 22:25:57 go/packages.Load #135
+	snapshot=58
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:57 PM] 2022/12/17 22:25:57 go/packages.Load #135: updating metadata for 0 packages
+
+[Info  - 10:25:57 PM] 2022/12/17 22:25:57 go/packages.Load #136
+	snapshot=58
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:57 PM] 2022/12/17 22:25:57 go/packages.Load #136: updating metadata for 0 packages
+
+[Error - 10:25:57 PM] 2022/12/17 22:25:57 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=58
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:58 PM] 2022/12/17 22:25:58 go/packages.Load #137
+	snapshot=59
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:58 PM] 2022/12/17 22:25:58 go/packages.Load #137: updating metadata for 0 packages
+
+[Info  - 10:25:58 PM] 2022/12/17 22:25:58 go/packages.Load #138
+	snapshot=59
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:58 PM] 2022/12/17 22:25:58 go/packages.Load #138: updating metadata for 0 packages
+
+[Info  - 10:25:58 PM] 2022/12/17 22:25:58 go/packages.Load #139
+	snapshot=59
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:58 PM] 2022/12/17 22:25:58 go/packages.Load #139: updating metadata for 0 packages
+
+[Error - 10:25:58 PM] 2022/12/17 22:25:58 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=59
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #140
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #140
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #140: updating metadata for 1 packages
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #141
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #141
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #141: updating metadata for 0 packages
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #142: updating metadata for 0 packages
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #142
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #143
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #143
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #143: updating metadata for 1 packages
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #144
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #144: updating metadata for 0 packages
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #145
+	snapshot=60
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:25:59 PM] 2022/12/17 22:25:59 go/packages.Load #145: updating metadata for 0 packages
+
+[Error - 10:25:59 PM] 2022/12/17 22:25:59 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=60
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:26:17 PM] 2022/12/17 22:26:17 background imports cache refresh starting
+
+[Info  - 10:26:17 PM] 2022/12/17 22:26:17 background refresh finished after 606.327µs
+
+[Error - 10:37:33 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 10:37:33 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 10:37:34 PM] 2022/12/17 22:37:34 go/packages.Load #146
+	snapshot=61
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:34 PM] 2022/12/17 22:37:34 go/packages.Load #146: updating metadata for 0 packages
+
+[Info  - 10:37:34 PM] 2022/12/17 22:37:34 go/packages.Load #147
+	snapshot=61
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:34 PM] 2022/12/17 22:37:34 go/packages.Load #147: updating metadata for 0 packages
+
+[Info  - 10:37:34 PM] 2022/12/17 22:37:34 go/packages.Load #148: updating metadata for 0 packages
+
+[Info  - 10:37:34 PM] 2022/12/17 22:37:34 go/packages.Load #148
+	snapshot=61
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Error - 10:37:34 PM] 2022/12/17 22:37:34 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=61
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:37:35 PM] 2022/12/17 22:37:35 go/packages.Load #149
+	snapshot=63
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:35 PM] 2022/12/17 22:37:35 go/packages.Load #149: updating metadata for 0 packages
+
+[Info  - 10:37:35 PM] 2022/12/17 22:37:35 go/packages.Load #150
+	snapshot=63
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:35 PM] 2022/12/17 22:37:35 go/packages.Load #150: updating metadata for 0 packages
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #153: updating metadata for 0 packages
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #153
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/handler/app.go file:///home/myhuamobboss/go/src/aroundstore/handler/router.go file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #152
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #152
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #152: updating metadata for 1 packages
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #154
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go file=/home/myhuamobboss/go/src/aroundstore/handler/router.go file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=2
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #154
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #154
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #154: updating metadata for 1 packages
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #155
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #155: updating metadata for 0 packages
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #156
+	snapshot=64
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:36 PM] 2022/12/17 22:37:36 go/packages.Load #156: updating metadata for 0 packages
+
+[Error - 10:37:36 PM] 2022/12/17 22:37:36 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=64
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #158
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #158
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #158: updating metadata for 1 packages
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #157
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #157
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #157: updating metadata for 0 packages
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #159: updating metadata for 0 packages
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #159
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #160
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #160
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #160: updating metadata for 1 packages
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #161
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #161: updating metadata for 0 packages
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #162
+	snapshot=65
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:40 PM] 2022/12/17 22:37:40 go/packages.Load #162: updating metadata for 0 packages
+
+[Error - 10:37:40 PM] 2022/12/17 22:37:40 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=65
+	directory=file:///home/myhuamobboss
+
+[Error - 10:37:40 PM] Request textDocument/definition failed.
+  Message: package does not import gorilla/mux
+  Code: 0 
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #163
+	snapshot=67
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #163
+	snapshot=67
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #163: updating metadata for 1 packages
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #164
+	snapshot=68
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #164: updating metadata for 0 packages
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #165
+	snapshot=68
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #165
+	snapshot=68
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #165: updating metadata for 1 packages
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #166
+	snapshot=68
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #166: updating metadata for 0 packages
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #167
+	snapshot=68
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:41 PM] 2022/12/17 22:37:41 go/packages.Load #167: updating metadata for 0 packages
+
+[Error - 10:37:41 PM] 2022/12/17 22:37:41 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=68
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #168
+	snapshot=69
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #168: updating metadata for 0 packages
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #169
+	snapshot=69
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #169: updating metadata for 0 packages
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #170
+	snapshot=69
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #170: updating metadata for 0 packages
+
+[Error - 10:37:42 PM] 2022/12/17 22:37:42 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=69
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #171
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #171
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:42 PM] 2022/12/17 22:37:42 go/packages.Load #171: updating metadata for 1 packages
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #172
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #172: updating metadata for 0 packages
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #173
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #173
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #173: updating metadata for 1 packages
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #174
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #174: updating metadata for 0 packages
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #175
+	snapshot=70
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:43 PM] 2022/12/17 22:37:43 go/packages.Load #175: updating metadata for 0 packages
+
+[Error - 10:37:43 PM] 2022/12/17 22:37:43 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=70
+	directory=file:///home/myhuamobboss
+
+[Error - 10:37:46 PM] Request textDocument/definition failed.
+  Message: no packages for non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod (go.mod)
+  Code: 0 
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #176
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #176
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #176: updating metadata for 1 packages
+
+[Error - 10:37:50 PM] 2022/12/17 22:37:50 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/router.go:6:5: invalid import path: "github.com/gorilla/mux v1.8.0"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/router.go"
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #177: updating metadata for 0 packages
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #177
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Error - 10:37:50 PM] 2022/12/17 22:37:50 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/router.go:6:5: invalid import path: "github.com/gorilla/mux v1.8.0"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/router.go"
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #178
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #178
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #178: updating metadata for 1 packages
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #179
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #179: updating metadata for 0 packages
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #180
+	snapshot=71
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:50 PM] 2022/12/17 22:37:50 go/packages.Load #180: updating metadata for 0 packages
+
+[Error - 10:37:50 PM] 2022/12/17 22:37:50 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=71
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:37:51 PM] 2022/12/17 22:37:51 go/packages.Load #181
+	snapshot=72
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:51 PM] 2022/12/17 22:37:51 go/packages.Load #181: updating metadata for 0 packages
+
+[Info  - 10:37:51 PM] 2022/12/17 22:37:51 go/packages.Load #182
+	snapshot=72
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:51 PM] 2022/12/17 22:37:51 go/packages.Load #182: updating metadata for 0 packages
+
+[Info  - 10:37:51 PM] 2022/12/17 22:37:51 go/packages.Load #183
+	snapshot=72
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:51 PM] 2022/12/17 22:37:51 go/packages.Load #183: updating metadata for 0 packages
+
+[Error - 10:37:51 PM] 2022/12/17 22:37:51 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=72
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:37:52 PM] 2022/12/17 22:37:52 go/packages.Load #184
+	snapshot=73
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:52 PM] 2022/12/17 22:37:52 go/packages.Load #184: updating metadata for 0 packages
+
+[Info  - 10:37:52 PM] 2022/12/17 22:37:52 go/packages.Load #185
+	snapshot=73
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:52 PM] 2022/12/17 22:37:52 go/packages.Load #185: updating metadata for 0 packages
+
+[Info  - 10:37:52 PM] 2022/12/17 22:37:52 go/packages.Load #186
+	snapshot=73
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:52 PM] 2022/12/17 22:37:52 go/packages.Load #186: updating metadata for 0 packages
+
+[Error - 10:37:52 PM] 2022/12/17 22:37:52 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=73
+	directory=file:///home/myhuamobboss
+
+[Error - 10:37:52 PM] 2022/12/17 22:37:52 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/router.go:6:5: invalid import path: "github.com/gorilla/mux v1.8.0"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/router.go"
+
+[Error - 10:37:54 PM] 2022/12/17 22:37:54 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/router.go:6:5: invalid import path: "github.com/gorilla/mux v1.8.0"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/router.go"
+
+[Error - 10:37:58 PM] 2022/12/17 22:37:58 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/router.go:6:5: invalid import path: "github.com/gorilla/mux v1.8.0"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/router.go"
+
+[Info  - 10:37:58 PM] 2022/12/17 22:37:58 go/packages.Load #187
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:37:58 PM] 2022/12/17 22:37:58 go/packages.Load #187
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:37:58 PM] 2022/12/17 22:37:58 go/packages.Load #187: updating metadata for 1 packages
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #188
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #188: updating metadata for 0 packages
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #189
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #189
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #189: updating metadata for 1 packages
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #190
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #190: updating metadata for 0 packages
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #191
+	snapshot=74
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:37:59 PM] 2022/12/17 22:37:59 go/packages.Load #191: updating metadata for 0 packages
+
+[Error - 10:37:59 PM] 2022/12/17 22:37:59 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=74
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #192
+	snapshot=75
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #192: updating metadata for 0 packages
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #193
+	snapshot=75
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #193: updating metadata for 0 packages
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #194
+	snapshot=75
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #194: updating metadata for 0 packages
+
+[Error - 10:38:00 PM] 2022/12/17 22:38:00 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=75
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #195
+	snapshot=78
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #195: updating metadata for 0 packages
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #197
+	snapshot=79
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #197: updating metadata for 0 packages
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #198
+	snapshot=79
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #198: updating metadata for 0 packages
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #199
+	snapshot=79
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:00 PM] 2022/12/17 22:38:00 go/packages.Load #199: updating metadata for 0 packages
+
+[Error - 10:38:00 PM] 2022/12/17 22:38:00 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=79
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:01 PM] 2022/12/17 22:38:01 go/packages.Load #200
+	snapshot=80
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:01 PM] 2022/12/17 22:38:01 go/packages.Load #200: updating metadata for 0 packages
+
+[Info  - 10:38:01 PM] 2022/12/17 22:38:01 go/packages.Load #201
+	snapshot=80
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:01 PM] 2022/12/17 22:38:01 go/packages.Load #201: updating metadata for 0 packages
+
+[Info  - 10:38:01 PM] 2022/12/17 22:38:01 go/packages.Load #202
+	snapshot=80
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:01 PM] 2022/12/17 22:38:01 go/packages.Load #202: updating metadata for 0 packages
+
+[Error - 10:38:01 PM] 2022/12/17 22:38:01 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=80
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:02 PM] 2022/12/17 22:38:02 background imports cache refresh starting
+
+[Info  - 10:38:02 PM] 2022/12/17 22:38:02 background refresh finished after 511.605µs
+
+[Info  - 10:38:03 PM] 2022/12/17 22:38:03 go/packages.Load #203
+	snapshot=81
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:03 PM] 2022/12/17 22:38:03 go/packages.Load #203: updating metadata for 0 packages
+
+[Info  - 10:38:03 PM] 2022/12/17 22:38:03 go/packages.Load #204
+	snapshot=81
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:03 PM] 2022/12/17 22:38:03 go/packages.Load #204: updating metadata for 0 packages
+
+[Info  - 10:38:03 PM] 2022/12/17 22:38:03 go/packages.Load #205
+	snapshot=81
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:03 PM] 2022/12/17 22:38:03 go/packages.Load #205: updating metadata for 0 packages
+
+[Error - 10:38:03 PM] 2022/12/17 22:38:03 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=81
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #207: updating metadata for 0 packages
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #207
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/handler/app.go file:///home/myhuamobboss/go/src/aroundstore/handler/router.go file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #206
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #206
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #206: updating metadata for 1 packages
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #208
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go file=/home/myhuamobboss/go/src/aroundstore/handler/router.go file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=2
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #208
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #208
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #208: updating metadata for 1 packages
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #209
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #209: updating metadata for 0 packages
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #210
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:04 PM] 2022/12/17 22:38:04 go/packages.Load #210: updating metadata for 0 packages
+
+[Error - 10:38:04 PM] 2022/12/17 22:38:04 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=82
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:14 PM] 2022/12/17 22:38:14 go/packages.Load #211
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:14 PM] 2022/12/17 22:38:14 go/packages.Load #211: updating metadata for 0 packages
+
+[Info  - 10:38:14 PM] 2022/12/17 22:38:14 go/packages.Load #212
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:14 PM] 2022/12/17 22:38:14 go/packages.Load #212: updating metadata for 0 packages
+
+[Info  - 10:38:14 PM] 2022/12/17 22:38:14 go/packages.Load #213
+	snapshot=82
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:14 PM] 2022/12/17 22:38:14 go/packages.Load #213: updating metadata for 0 packages
+
+[Error - 10:38:14 PM] 2022/12/17 22:38:14 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=82
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:33 PM] 2022/12/17 22:38:33 background imports cache refresh starting
+
+[Info  - 10:38:33 PM] 2022/12/17 22:38:33 background refresh finished after 815.891µs
+
+[Info  - 10:38:39 PM] 2022/12/17 22:38:39 go/packages.Load #214
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:38:39 PM] 2022/12/17 22:38:39 go/packages.Load #214
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:38:39 PM] 2022/12/17 22:38:39 go/packages.Load #214: updating metadata for 1 packages
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #215
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #215: updating metadata for 0 packages
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #216
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #216
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #216: updating metadata for 1 packages
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #217
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #217: updating metadata for 0 packages
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #218
+	snapshot=83
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:40 PM] 2022/12/17 22:38:40 go/packages.Load #218: updating metadata for 0 packages
+
+[Error - 10:38:40 PM] 2022/12/17 22:38:40 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=83
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:41 PM] 2022/12/17 22:38:41 go/packages.Load #219
+	snapshot=88
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:41 PM] 2022/12/17 22:38:41 go/packages.Load #219: updating metadata for 0 packages
+
+[Info  - 10:38:41 PM] 2022/12/17 22:38:41 go/packages.Load #220
+	snapshot=88
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:41 PM] 2022/12/17 22:38:41 go/packages.Load #220: updating metadata for 0 packages
+
+[Info  - 10:38:41 PM] 2022/12/17 22:38:41 go/packages.Load #221
+	snapshot=88
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:41 PM] 2022/12/17 22:38:41 go/packages.Load #221: updating metadata for 0 packages
+
+[Error - 10:38:41 PM] 2022/12/17 22:38:41 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=88
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:42 PM] 2022/12/17 22:38:42 go/packages.Load #222
+	snapshot=89
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:42 PM] 2022/12/17 22:38:42 go/packages.Load #222: updating metadata for 0 packages
+
+[Info  - 10:38:42 PM] 2022/12/17 22:38:42 go/packages.Load #223
+	snapshot=89
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:42 PM] 2022/12/17 22:38:42 go/packages.Load #223: updating metadata for 0 packages
+
+[Info  - 10:38:42 PM] 2022/12/17 22:38:42 go/packages.Load #224
+	snapshot=89
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:42 PM] 2022/12/17 22:38:42 go/packages.Load #224: updating metadata for 0 packages
+
+[Error - 10:38:42 PM] 2022/12/17 22:38:42 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=89
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:38:58 PM] 2022/12/17 22:38:58 go/packages.Load #225
+	snapshot=90
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:58 PM] 2022/12/17 22:38:58 go/packages.Load #225: updating metadata for 0 packages
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #227
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #227
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #227: updating metadata for 1 packages
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #228
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #228
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #228: updating metadata for 0 packages
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #229
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #229: updating metadata for 0 packages
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #230
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #230
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #230: updating metadata for 1 packages
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #231
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #231: updating metadata for 0 packages
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #232
+	snapshot=91
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:38:59 PM] 2022/12/17 22:38:59 go/packages.Load #232: updating metadata for 0 packages
+
+[Error - 10:38:59 PM] 2022/12/17 22:38:59 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=91
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #233
+	snapshot=92
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #233: updating metadata for 0 packages
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #234
+	snapshot=92
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #234: updating metadata for 0 packages
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #237
+	snapshot=95
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/router.go]
+	packages=1
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #237
+	snapshot=95
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 10:39:00 PM] 2022/12/17 22:39:00 go/packages.Load #237: updating metadata for 1 packages
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #238
+	snapshot=96
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #238: updating metadata for 0 packages
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #240
+	snapshot=97
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #240: updating metadata for 0 packages
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #241
+	snapshot=97
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #241
+	snapshot=97
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #241: updating metadata for 1 packages
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #242
+	snapshot=97
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #242: updating metadata for 0 packages
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #243
+	snapshot=97
+	directory=file:///home/myhuamobboss
+	query=[./]
+	packages=1
+
+[Info  - 10:39:01 PM] 2022/12/17 22:39:01 go/packages.Load #243: updating metadata for 0 packages
+
+[Error - 10:39:01 PM] 2022/12/17 22:39:01 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=97
+	directory=file:///home/myhuamobboss
+
+[Info  - 10:39:02 PM] 2022/12/17 22:39:02 Shutdown session
+	shutdown_session=1
+

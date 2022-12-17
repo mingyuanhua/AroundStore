@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 2,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "autoimport.showNotifications": true,
+    "autoimport.doubleQuotes": true,
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true
+}

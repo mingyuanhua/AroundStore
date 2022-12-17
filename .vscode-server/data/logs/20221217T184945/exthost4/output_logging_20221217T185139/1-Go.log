@@ -1,0 +1,48 @@
+Starting linting the current package at /home/myhuamobboss/go/src/appstore
+Starting "go vet" under the folder /home/myhuamobboss/go/src/appstore
+Starting building the current package at /home/myhuamobboss/go/src/appstore
+/home/myhuamobboss/go/src/appstore>Finished running tool: /usr/bin/go vet .
+
+/home/myhuamobboss/go/src/appstore>Finished running tool: /usr/bin/go build -o /tmp/vscode-gon1VydK/go-code-check appstore
+
+Tools environment: GOPATH=/home/myhuamobboss/go
+Installing 1 tool at /home/myhuamobboss/go/bin in module mode.
+  gopls
+
+Tools environment: GOPATH=/home/myhuamobboss/go
+Installing 1 tool at /home/myhuamobboss/go/bin in module mode.
+  go-outline
+
+Installing github.com/ramya-rao-a/go-outline@v0.0.0-20210608161538-9736a4bde949 (/home/myhuamobboss/go/bin/go-outline) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Tools environment: GOPATH=/home/myhuamobboss/go
+Installing 1 tool at /home/myhuamobboss/go/bin in module mode.
+  go-outline
+
+Installing github.com/ramya-rao-a/go-outline@v0.0.0-20210608161538-9736a4bde949 (/home/myhuamobboss/go/bin/go-outline) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Installing golang.org/x/tools/gopls@latest (/home/myhuamobboss/go/bin/gopls) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Starting linting the current package at /home/myhuamobboss/go/src/appstore
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/model
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler
+Starting linting the current package at /home/myhuamobboss/go/src/aroundstore/handler

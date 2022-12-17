@@ -1,0 +1,49 @@
+[Info  - 10:39:20 PM] 2022/12/17 22:39:20 go env for /home/myhuamobboss
+(root /home/myhuamobboss/go/src/aroundstore)
+(go version go version go1.19.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GONOPROXY=
+GONOSUMDB=
+GOROOT=/usr/lib/go-1.19
+GOFLAGS=
+GOMOD=/dev/null
+GOCACHE=/home/myhuamobboss/.cache/go-build
+GOPROXY=https://proxy.golang.org,direct
+GOWORK=
+GO111MODULE=
+GOSUMDB=sum.golang.org
+GOPATH=/home/myhuamobboss/go
+GOINSECURE=
+GOMODCACHE=/home/myhuamobboss/go/pkg/mod
+GOPRIVATE=
+
+
+[Info  - 10:39:20 PM] 2022/12/17 22:39:20 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/myhuamobboss
+	query=[aroundstore/... builtin]
+	packages=4
+
+[Info  - 10:39:20 PM] 2022/12/17 22:39:20 go/packages.Load #1: updating metadata for 133 packages
+
+[Info  - 10:40:15 PM] 2022/12/17 22:40:15 background imports cache refresh starting
+
+[Info  - 10:40:15 PM] 2022/12/17 22:40:15 background refresh finished after 48.306805ms
+
+[Info  - 11:17:32 PM] 2022/12/17 23:17:32 background imports cache refresh starting
+
+[Info  - 11:17:32 PM] 2022/12/17 23:17:32 background refresh finished after 4.677731ms
+
+[Info  - 11:19:28 PM] 2022/12/17 23:19:28 background imports cache refresh starting
+
+[Info  - 11:19:28 PM] 2022/12/17 23:19:28 background refresh finished after 5.208501ms
+
+[Info  - 11:21:18 PM] 2022/12/17 23:21:18 background imports cache refresh starting
+
+[Info  - 11:21:18 PM] 2022/12/17 23:21:18 background refresh finished after 4.641429ms
+
+[Info  - 11:28:34 PM] 2022/12/17 23:28:34 background imports cache refresh starting
+
+[Info  - 11:28:34 PM] 2022/12/17 23:28:34 background refresh finished after 4.3308ms
+
