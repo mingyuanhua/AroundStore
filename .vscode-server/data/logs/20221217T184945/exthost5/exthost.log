@@ -61,3 +61,13 @@ These files will be FOREVER LOST if you proceed.
 2022-12-17 23:36:25.565 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
 2022-12-17 23:36:25.565 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
 2022-12-17 23:39:59.247 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2022-12-17 23:40:36.703 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 23:40:36.705 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 23:40:36.708 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 23:40:36.708 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 23:40:36.708 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 23:40:45.143 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 23:40:45.146 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 23:40:45.165 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 23:40:45.165 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 23:40:45.165 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
