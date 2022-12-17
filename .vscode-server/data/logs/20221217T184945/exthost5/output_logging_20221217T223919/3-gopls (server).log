@@ -59,3 +59,22 @@ GOPRIVATE=
 
 [Info  - 11:42:57 PM] 2022/12/17 23:42:57 background refresh finished after 5.495661ms
 
+[Error - 11:44:39 PM] 2022/12/17 23:44:39 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod
+	URI=file:///home/myhuamobboss/go/src/aroundstore/go.mod
+
+[Info  - 11:45:25 PM] 2022/12/17 23:45:25 background imports cache refresh starting
+
+[Info  - 11:45:25 PM] 2022/12/17 23:45:25 background refresh finished after 4.320102ms
+
+[Info  - 11:47:49 PM] 2022/12/17 23:47:49 background imports cache refresh starting
+
+[Info  - 11:47:49 PM] 2022/12/17 23:47:49 background refresh finished after 4.180665ms
+
+[Info  - 11:48:46 PM] 2022/12/17 23:48:46 go/packages.Load #2
+	snapshot=9
+	directory=file:///home/myhuamobboss
+	query=[aroundstore/... builtin]
+	packages=4
+
+[Info  - 11:48:46 PM] 2022/12/17 23:48:46 go/packages.Load #2: updating metadata for 133 packages
+
