@@ -1,0 +1,9 @@
+package constants
+
+const (
+    APP_INDEX = "app"
+    USER_INDEX = "user"
+    ES_URL = "http://YOUR_GCE_INTERNAL_IP_ADDRES:9200"
+    ES_USERNAME = "YOUR_ELASTICSEARCH_USERNAME"
+    ES_PASSWORD = "YOUR_ELASTICSEARCH_PASSWORD"
+)

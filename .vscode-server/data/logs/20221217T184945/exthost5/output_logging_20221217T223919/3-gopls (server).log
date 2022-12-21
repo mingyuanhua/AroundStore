@@ -78,3 +78,13 @@ GOPRIVATE=
 
 [Info  - 11:48:46 PM] 2022/12/17 23:48:46 go/packages.Load #2: updating metadata for 133 packages
 
+[Error - 11:49:12 PM] 2022/12/17 23:49:12 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod
+	URI=file:///home/myhuamobboss/go/src/aroundstore/go.mod
+
+[Info  - 11:49:39 PM] 2022/12/17 23:49:39 background imports cache refresh starting
+
+[Info  - 11:49:39 PM] 2022/12/17 23:49:39 background refresh finished after 4.529614ms
+
+[Info  - 11:51:05 PM] 2022/12/17 23:51:05 Shutdown session
+	shutdown_session=1
+

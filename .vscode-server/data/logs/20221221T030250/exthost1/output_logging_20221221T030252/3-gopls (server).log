@@ -1,0 +1,2213 @@
+[Info  - 3:02:53 AM] 2022/12/21 03:02:53 go env for /home/myhuamobboss
+(root /home/myhuamobboss/go/src/aroundstore)
+(go version go version go1.19.4 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOROOT=/usr/lib/go-1.19
+GOSUMDB=sum.golang.org
+GOPATH=/home/myhuamobboss/go
+GOCACHE=/home/myhuamobboss/.cache/go-build
+GONOPROXY=
+GOPROXY=https://proxy.golang.org,direct
+GO111MODULE=
+GOWORK=
+GOFLAGS=
+GOMODCACHE=/home/myhuamobboss/go/pkg/mod
+GOPRIVATE=
+GOINSECURE=
+GOMOD=/dev/null
+GONOSUMDB=
+
+
+[Info  - 3:02:55 AM] 2022/12/21 03:02:55 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/myhuamobboss
+	query=[aroundstore/... builtin]
+	packages=4
+
+[Info  - 3:02:55 AM] 2022/12/21 03:02:55 go/packages.Load #1: updating metadata for 133 packages
+
+[Info  - 3:03:44 AM] 2022/12/21 03:03:44 background imports cache refresh starting
+
+[Info  - 3:03:44 AM] 2022/12/21 03:03:44 background refresh finished after 63.657998ms
+
+[Info  - 3:04:20 AM] 2022/12/21 03:04:20 background refresh finished after 4.90331ms
+
+[Info  - 3:04:20 AM] 2022/12/21 03:04:20 background imports cache refresh starting
+
+[Info  - 3:14:50 AM] 2022/12/21 03:14:50 background imports cache refresh starting
+
+[Info  - 3:14:50 AM] 2022/12/21 03:14:50 background refresh finished after 4.819231ms
+
+[Info  - 4:06:55 AM] 2022/12/21 04:06:55 go/packages.Load #51
+	snapshot=50
+	directory=file:///home/myhuamobboss
+	query=[aroundstore/... builtin]
+	packages=4
+
+[Info  - 4:06:55 AM] 2022/12/21 04:06:55 go/packages.Load #51: updating metadata for 133 packages
+
+[Info  - 4:06:57 AM] 2022/12/21 04:06:57 go/packages.Load #1077
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/stack_test.go]
+	packages=1
+
+[Info  - 4:06:57 AM] 2022/12/21 04:06:57 go/packages.Load #1077
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="github.com/pkg/errors [github.com/pkg/errors.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/errors.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/go113.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/stack.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/bench_test.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/errors_test.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/format_test.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/go113_test.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/json_test.go /home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/stack_test.go]
+
+[Info  - 4:06:57 AM] 2022/12/21 04:06:57 go/packages.Load #1077: updating metadata for 6 packages
+
+[Info  - 4:06:58 AM] 2022/12/21 04:06:58 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/example_test.go]
+
+[Info  - 4:07:07 AM] 2022/12/21 04:07:07 go/packages.Load #1079
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/example_test.go]
+	packages=2
+
+[Info  - 4:07:07 AM] 2022/12/21 04:07:07 go/packages.Load #1079
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_repository_test.go]
+
+[Info  - 4:07:07 AM] 2022/12/21 04:07:07 go/packages.Load #1079
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="github.com/pkg/errors_test [github.com/pkg/errors.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/pkg/errors@v0.9.1/example_test.go]
+
+[Info  - 4:07:07 AM] 2022/12/21 04:07:07 go/packages.Load #1079: updating metadata for 2 packages
+
+[Info  - 4:07:07 AM] 2022/12/21 04:07:07 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:14 AM] 2022/12/21 04:07:14 go/packages.Load #1080
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:14 AM] 2022/12/21 04:07:14 go/packages.Load #1080
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_create_test.go]
+
+[Info  - 4:07:14 AM] 2022/12/21 04:07:14 go/packages.Load #1080: updating metadata for 1 packages
+
+[Info  - 4:07:14 AM] 2022/12/21 04:07:14 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:22 AM] 2022/12/21 04:07:22 go/packages.Load #1081
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:22 AM] 2022/12/21 04:07:22 go/packages.Load #1081
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_repository_test.go]
+
+[Info  - 4:07:22 AM] 2022/12/21 04:07:22 go/packages.Load #1081: updating metadata for 1 packages
+
+[Info  - 4:07:22 AM] 2022/12/21 04:07:22 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:29 AM] 2022/12/21 04:07:29 go/packages.Load #1082
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:29 AM] 2022/12/21 04:07:29 go/packages.Load #1082
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_delete_test.go]
+
+[Info  - 4:07:29 AM] 2022/12/21 04:07:29 go/packages.Load #1082: updating metadata for 1 packages
+
+[Info  - 4:07:29 AM] 2022/12/21 04:07:29 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:36 AM] 2022/12/21 04:07:36 go/packages.Load #1083
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:36 AM] 2022/12/21 04:07:36 go/packages.Load #1083
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_repository_test.go]
+
+[Info  - 4:07:36 AM] 2022/12/21 04:07:36 go/packages.Load #1083: updating metadata for 1 packages
+
+[Info  - 4:07:36 AM] 2022/12/21 04:07:36 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:42 AM] 2022/12/21 04:07:42 go/packages.Load #1084
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:42 AM] 2022/12/21 04:07:42 go/packages.Load #1084
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_get_test.go]
+
+[Info  - 4:07:42 AM] 2022/12/21 04:07:42 go/packages.Load #1084: updating metadata for 1 packages
+
+[Info  - 4:07:42 AM] 2022/12/21 04:07:42 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1085
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1085
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1085: updating metadata for 1 packages
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1086
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go]
+	packages=1
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1086
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggest_field_test.go]
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1086: updating metadata for 1 packages
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1087
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go]
+	packages=1
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1087
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_execute_watch_test.go]
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1087: updating metadata for 1 packages
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1088
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go]
+	packages=1
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1088
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_user_test.go]
+
+[Info  - 4:07:49 AM] 2022/12/21 04:07:49 go/packages.Load #1088: updating metadata for 1 packages
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1089
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go]
+	packages=1
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1089: updating metadata for 1 packages
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1089
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_user_test.go]
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1090
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go]
+	packages=1
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1090
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_category_test.go]
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1090: updating metadata for 1 packages
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1091
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go]
+	packages=1
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1091
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_test.go]
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1091: updating metadata for 1 packages
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1092
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go]
+	packages=1
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1092
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_integration_test.go]
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1092: updating metadata for 1 packages
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1093
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go]
+	packages=1
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1093
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_start_test.go]
+
+[Info  - 4:07:50 AM] 2022/12/21 04:07:50 go/packages.Load #1093: updating metadata for 1 packages
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1094
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go]
+	packages=1
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1094
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_test.go]
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1094: updating metadata for 1 packages
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1095
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go]
+	packages=1
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1095
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_test.go]
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1095: updating metadata for 1 packages
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1096
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go]
+	packages=1
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1096
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/termvectors_test.go]
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1096: updating metadata for 1 packages
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1097
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go]
+	packages=1
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1097
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_list_test.go]
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1097: updating metadata for 1 packages
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1098
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go]
+	packages=1
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1098
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_term_test.go]
+
+[Info  - 4:07:51 AM] 2022/12/21 04:07:51 go/packages.Load #1098: updating metadata for 1 packages
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1099
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go]
+	packages=1
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1099
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_completion_test.go]
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1099: updating metadata for 1 packages
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1100
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go]
+	packages=1
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1100
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_activate_watch_test.go]
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1100: updating metadata for 1 packages
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1101
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go]
+	packages=1
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1101
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_by_query_test.go]
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1101: updating metadata for 1 packages
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1102
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go]
+	packages=1
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1102
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_role_mapping_test.go]
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1102: updating metadata for 1 packages
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1103
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go]
+	packages=1
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1103
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_mapping_test.go]
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1103: updating metadata for 1 packages
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1104
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go]
+	packages=1
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1104
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_test.go]
+
+[Info  - 4:07:52 AM] 2022/12/21 04:07:52 go/packages.Load #1104: updating metadata for 1 packages
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1105
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go]
+	packages=1
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1105: updating metadata for 1 packages
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1105
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_info_test.go]
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1106
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1106
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1106: updating metadata for 1 packages
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1107
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go]
+	packages=1
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1107
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_put_role_test.go]
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1107: updating metadata for 1 packages
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1108
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go]
+	packages=1
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1108: updating metadata for 1 packages
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1108
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_verify_repository_test.go]
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1109
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go]
+	packages=1
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1109
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_ack_watch_test.go]
+
+[Info  - 4:07:53 AM] 2022/12/21 04:07:53 go/packages.Load #1109: updating metadata for 1 packages
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1110
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go]
+	packages=1
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1110
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/validate_test.go]
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1110: updating metadata for 1 packages
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1111
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go]
+	packages=1
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1111
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_status_test.go]
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1111: updating metadata for 1 packages
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1112
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go]
+	packages=1
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1112
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_delete_watch_test.go]
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1112: updating metadata for 1 packages
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1113
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go]
+	packages=1
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1113
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_cancel_test.go]
+
+[Info  - 4:07:54 AM] 2022/12/21 04:07:54 go/packages.Load #1113: updating metadata for 1 packages
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1114
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go]
+	packages=1
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1114
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_deactivate_watch_test.go]
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1114: updating metadata for 1 packages
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1115
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go]
+	packages=1
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1115
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_context_geo_test.go]
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1115: updating metadata for 1 packages
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1116
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+	packages=1
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1116
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stop_test.go]
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1116: updating metadata for 1 packages
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1117
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go]
+	packages=1
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1117
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_put_watch_test.go]
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1117: updating metadata for 1 packages
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1118
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go]
+	packages=1
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1118
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/suggester_phrase_test.go]
+
+[Info  - 4:07:55 AM] 2022/12/21 04:07:55 go/packages.Load #1118: updating metadata for 1 packages
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1119
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go]
+	packages=1
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1119
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_stats_test.go]
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1119: updating metadata for 1 packages
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1120
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go]
+	packages=1
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1120
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_restart_test.go]
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1120: updating metadata for 1 packages
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1121
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go]
+	packages=1
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1121
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/update_test.go]
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1121: updating metadata for 1 packages
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1122
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go]
+	packages=1
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1122: updating metadata for 1 packages
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1122
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/sort_test.go]
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1123
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go]
+	packages=1
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1123
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_get_role_mapping_test.go]
+
+[Info  - 4:07:56 AM] 2022/12/21 04:07:56 go/packages.Load #1123: updating metadata for 1 packages
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1124
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go]
+	packages=1
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1124
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/tasks_get_task_test.go]
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1124: updating metadata for 1 packages
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1125
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go]
+	packages=1
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1125
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_ilm_test.go]
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1125: updating metadata for 1 packages
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1126
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go]
+	packages=1
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1126
+	snapshot=1044
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_security_delete_user_test.go]
+
+[Info  - 4:07:57 AM] 2022/12/21 04:07:57 go/packages.Load #1126: updating metadata for 1 packages
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1127
+	snapshot=1045
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/constants/constants.go]
+	packages=1
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1127
+	snapshot=1045
+	directory=file:///home/myhuamobboss
+	package="aroundstore/constants"
+	files=[/home/myhuamobboss/go/src/aroundstore/constants/constants.go]
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1127: updating metadata for 1 packages
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1128
+	snapshot=1045
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/constants/constants.go]
+	packages=1
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1128
+	snapshot=1045
+	directory=file:///home/myhuamobboss
+	package="aroundstore/constants"
+	files=[/home/myhuamobboss/go/src/aroundstore/constants/constants.go]
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1128: updating metadata for 0 packages
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1129
+	snapshot=1046
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1129
+	snapshot=1046
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 go/packages.Load #1129: updating metadata for 1 packages
+
+[Info  - 4:08:36 AM] 2022/12/21 04:08:36 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:08:37 AM] 2022/12/21 04:08:37 go/packages.Load #1130
+	snapshot=1046
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:08:37 AM] 2022/12/21 04:08:37 go/packages.Load #1130
+	snapshot=1046
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:08:37 AM] 2022/12/21 04:08:37 go/packages.Load #1130: updating metadata for 1 packages
+
+[Info  - 4:08:50 AM] 2022/12/21 04:08:50 go/packages.Load #1131
+	snapshot=1050
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/constants/constants.go]
+	packages=1
+
+[Info  - 4:08:50 AM] 2022/12/21 04:08:50 go/packages.Load #1131
+	snapshot=1050
+	directory=file:///home/myhuamobboss
+	package="aroundstore/constants"
+	files=[/home/myhuamobboss/go/src/aroundstore/constants/constants.go]
+
+[Info  - 4:08:50 AM] 2022/12/21 04:08:50 go/packages.Load #1131: updating metadata for 1 packages
+
+[Info  - 4:08:52 AM] 2022/12/21 04:08:52 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 go/packages.Load #1132
+	snapshot=1052
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 go/packages.Load #1132: updating metadata for 1 packages
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 go/packages.Load #1132
+	snapshot=1052
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 go/packages.Load #1133
+	snapshot=1052
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 go/packages.Load #1133
+	snapshot=1052
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:08:53 AM] 2022/12/21 04:08:53 go/packages.Load #1133: updating metadata for 1 packages
+
+[Info  - 4:09:05 AM] 2022/12/21 04:09:05 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:05 AM] 2022/12/21 04:09:05 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 go/packages.Load #1135
+	snapshot=1056
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 go/packages.Load #1135
+	snapshot=1056
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 go/packages.Load #1135: updating metadata for 1 packages
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 go/packages.Load #1136
+	snapshot=1056
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 go/packages.Load #1136
+	snapshot=1056
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:06 AM] 2022/12/21 04:09:06 go/packages.Load #1136: updating metadata for 1 packages
+
+[Info  - 4:09:07 AM] 2022/12/21 04:09:07 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:07 AM] 2022/12/21 04:09:07 go/packages.Load #1137
+	snapshot=1058
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:09:07 AM] 2022/12/21 04:09:07 go/packages.Load #1137
+	snapshot=1058
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:09:07 AM] 2022/12/21 04:09:07 go/packages.Load #1137: updating metadata for 1 packages
+
+[Info  - 4:09:07 AM] 2022/12/21 04:09:07 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:08 AM] 2022/12/21 04:09:08 go/packages.Load #1138
+	snapshot=1058
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:09:08 AM] 2022/12/21 04:09:08 go/packages.Load #1138
+	snapshot=1058
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:08 AM] 2022/12/21 04:09:08 go/packages.Load #1138: updating metadata for 1 packages
+
+[Error - 4:09:08 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:09:10 AM] 2022/12/21 04:09:10 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 go/packages.Load #1139
+	snapshot=1061
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 go/packages.Load #1139
+	snapshot=1061
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/snapshot_restore_test.go]
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 go/packages.Load #1139: updating metadata for 1 packages
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 reloadOrphanedFiles reloading
+	query=[file:///home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 go/packages.Load #1140
+	snapshot=1061
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+	packages=1
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 go/packages.Load #1140
+	snapshot=1061
+	directory=file:///home/myhuamobboss
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/myhuamobboss/go/pkg/mod/github.com/olivere/elastic@v6.2.37+incompatible/xpack_watcher_get_watch_test.go]
+
+[Info  - 4:09:11 AM] 2022/12/21 04:09:11 go/packages.Load #1140: updating metadata for 1 packages
+
+[Info  - 4:09:21 AM] 2022/12/21 04:09:21 background imports cache refresh starting
+
+[Info  - 4:09:21 AM] 2022/12/21 04:09:21 background refresh finished after 8.132747ms
+
+[Error - 4:12:25 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:12:25 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:12:55 AM] 2022/12/21 04:12:55 background imports cache refresh starting
+
+[Info  - 4:12:55 AM] 2022/12/21 04:12:55 background refresh finished after 5.137208ms
+
+[Info  - 4:13:20 AM] 2022/12/21 04:13:20 go/packages.Load #1141
+	snapshot=1121
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:20 AM] 2022/12/21 04:13:20 go/packages.Load #1141
+	snapshot=1121
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:20 AM] 2022/12/21 04:13:20 go/packages.Load #1141: updating metadata for 1 packages
+
+[Info  - 4:13:30 AM] 2022/12/21 04:13:30 go/packages.Load #1142
+	snapshot=1124
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:30 AM] 2022/12/21 04:13:30 go/packages.Load #1142
+	snapshot=1124
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:30 AM] 2022/12/21 04:13:30 go/packages.Load #1142: updating metadata for 11 packages
+
+[Info  - 4:13:30 AM] 2022/12/21 04:13:30 go/packages.Load #1143
+	snapshot=1124
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:30 AM] 2022/12/21 04:13:30 go/packages.Load #1143
+	snapshot=1124
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:30 AM] 2022/12/21 04:13:30 go/packages.Load #1143: updating metadata for 0 packages
+
+[Error - 4:13:31 AM] 2022/12/21 04:13:31 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:13:31 AM] 2022/12/21 04:13:31 go/packages.Load #1144
+	snapshot=1126
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:31 AM] 2022/12/21 04:13:31 go/packages.Load #1144
+	snapshot=1126
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:31 AM] 2022/12/21 04:13:31 go/packages.Load #1144: updating metadata for 1 packages
+
+[Error - 4:13:32 AM] 2022/12/21 04:13:32 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:13:49 AM] 2022/12/21 04:13:49 go/packages.Load #1145
+	snapshot=1127
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:49 AM] 2022/12/21 04:13:49 go/packages.Load #1145
+	snapshot=1127
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:49 AM] 2022/12/21 04:13:49 go/packages.Load #1145: updating metadata for 1 packages
+
+[Error - 4:13:49 AM] 2022/12/21 04:13:49 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:13:50 AM] 2022/12/21 04:13:50 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:13:51 AM] 2022/12/21 04:13:51 go/packages.Load #1148
+	snapshot=1132
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:51 AM] 2022/12/21 04:13:51 go/packages.Load #1148
+	snapshot=1132
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:51 AM] 2022/12/21 04:13:51 go/packages.Load #1148: updating metadata for 1 packages
+
+[Error - 4:13:51 AM] 2022/12/21 04:13:51 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:13:57 AM] 2022/12/21 04:13:57 go/packages.Load #1149
+	snapshot=1134
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:57 AM] 2022/12/21 04:13:57 go/packages.Load #1149
+	snapshot=1134
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:57 AM] 2022/12/21 04:13:57 go/packages.Load #1149: updating metadata for 1 packages
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1151
+	snapshot=1136
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1151
+	snapshot=1136
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1151: updating metadata for 1 packages
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1153
+	snapshot=1138
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1153
+	snapshot=1138
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1153: updating metadata for 1 packages
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1154: updating metadata for 0 packages
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1154
+	snapshot=1138
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+	packages=1
+
+[Info  - 4:13:58 AM] 2022/12/21 04:13:58 go/packages.Load #1154
+	snapshot=1138
+	directory=file:///home/myhuamobboss
+	package="aroundstore/backend"
+	files=[/home/myhuamobboss/go/src/aroundstore/backend/elasticsearch.go]
+
+[Error - 4:13:59 AM] 2022/12/21 04:13:58 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:13:59 AM] 2022/12/21 04:13:59 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:00 AM] 2022/12/21 04:14:00 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:14:00 AM] 2022/12/21 04:14:00 background imports cache refresh starting
+
+[Info  - 4:14:00 AM] 2022/12/21 04:14:00 background refresh finished after 4.721796ms
+
+[Error - 4:14:11 AM] 2022/12/21 04:14:11 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:13 AM] 2022/12/21 04:14:13 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:14 AM] 2022/12/21 04:14:14 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:15 AM] 2022/12/21 04:14:15 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:15 AM] 2022/12/21 04:14:15 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:17 AM] 2022/12/21 04:14:17 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:17 AM] 2022/12/21 04:14:17 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:22 AM] 2022/12/21 04:14:22 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:14:23 AM] 2022/12/21 04:14:23 go/packages.Load #1156
+	snapshot=1152
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 4:14:23 AM] 2022/12/21 04:14:23 go/packages.Load #1156
+	snapshot=1152
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 4:14:23 AM] 2022/12/21 04:14:23 go/packages.Load #1156: updating metadata for 1 packages
+
+[Error - 4:14:23 AM] 2022/12/21 04:14:23 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:24 AM] 2022/12/21 04:14:24 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:14:27 AM] 2022/12/21 04:14:27 go/packages.Load #1157
+	snapshot=1156
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/main.go]
+	packages=1
+
+[Info  - 4:14:27 AM] 2022/12/21 04:14:27 go/packages.Load #1157
+	snapshot=1156
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 4:14:27 AM] 2022/12/21 04:14:27 go/packages.Load #1157: updating metadata for 1 packages
+
+[Error - 4:14:27 AM] 2022/12/21 04:14:27 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:29 AM] 2022/12/21 04:14:29 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:14:29 AM] 2022/12/21 04:14:29 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:14:40 AM] 2022/12/21 04:14:40 background imports cache refresh starting
+
+[Info  - 4:14:40 AM] 2022/12/21 04:14:40 background refresh finished after 4.558046ms
+
+[Error - 4:17:02 AM] 2022/12/21 04:17:02 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/myhuamobboss/go/src/aroundstore/go.mod
+	URI=file:///home/myhuamobboss/go/src/aroundstore/go.mod
+
+[Error - 4:17:03 AM] 2022/12/21 04:17:03 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:17:13 AM] 2022/12/21 04:17:13 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:17:43 AM] 2022/12/21 04:17:43 background imports cache refresh starting
+
+[Info  - 4:17:43 AM] 2022/12/21 04:17:43 background refresh finished after 5.796523ms
+
+[Error - 4:18:44 AM] 2022/12/21 04:18:44 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:19:14 AM] 2022/12/21 04:19:13 background imports cache refresh starting
+
+[Info  - 4:19:14 AM] 2022/12/21 04:19:14 background refresh finished after 5.771846ms
+
+[Info  - 4:21:29 AM] 2022/12/21 04:21:29 background imports cache refresh starting
+
+[Info  - 4:21:29 AM] 2022/12/21 04:21:29 background refresh finished after 5.100346ms
+
+[Error - 4:21:56 AM] 2022/12/21 04:21:56 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:21:57 AM] 2022/12/21 04:21:57 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:21:57 AM] 2022/12/21 04:21:57 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:22:07 AM] 2022/12/21 04:22:07 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:22:08 AM] 2022/12/21 04:22:07 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:22:21 AM] 2022/12/21 04:22:21 background imports cache refresh starting
+
+[Info  - 4:22:21 AM] 2022/12/21 04:22:21 background refresh finished after 4.896738ms
+
+[Info  - 4:22:53 AM] 2022/12/21 04:22:53 go/packages.Load #1158
+	snapshot=1173
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:22:53 AM] 2022/12/21 04:22:53 go/packages.Load #1158
+	snapshot=1173
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:22:53 AM] 2022/12/21 04:22:53 go/packages.Load #1158: updating metadata for 1 packages
+
+[Info  - 4:22:53 AM] 2022/12/21 04:22:53 go/packages.Load #1159
+	snapshot=1173
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:22:53 AM] 2022/12/21 04:22:53 go/packages.Load #1159
+	snapshot=1173
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:22:53 AM] 2022/12/21 04:22:53 go/packages.Load #1159: updating metadata for 0 packages
+
+[Error - 4:22:53 AM] 2022/12/21 04:22:53 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:23:34 AM] 2022/12/21 04:23:34 go/packages.Load #1160
+	snapshot=1175
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:34 AM] 2022/12/21 04:23:34 go/packages.Load #1160
+	snapshot=1175
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:34 AM] 2022/12/21 04:23:34 go/packages.Load #1160: updating metadata for 1 packages
+
+[Error - 4:23:34 AM] 2022/12/21 04:23:34 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:23:35 AM] 2022/12/21 04:23:35 go/packages.Load #1161
+	snapshot=1178
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:35 AM] 2022/12/21 04:23:35 go/packages.Load #1161
+	snapshot=1178
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:35 AM] 2022/12/21 04:23:35 go/packages.Load #1161: updating metadata for 1 packages
+
+[Info  - 4:23:35 AM] 2022/12/21 04:23:35 go/packages.Load #1162
+	snapshot=1178
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:35 AM] 2022/12/21 04:23:35 go/packages.Load #1162
+	snapshot=1178
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:35 AM] 2022/12/21 04:23:35 go/packages.Load #1162: updating metadata for 0 packages
+
+[Error - 4:23:35 AM] 2022/12/21 04:23:35 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:23:36 AM] 2022/12/21 04:23:36 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:23:36 AM] 2022/12/21 04:23:36 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:23:43 AM] 2022/12/21 04:23:43 go/packages.Load #1163
+	snapshot=1181
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:43 AM] 2022/12/21 04:23:43 go/packages.Load #1163
+	snapshot=1181
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:43 AM] 2022/12/21 04:23:43 go/packages.Load #1163: updating metadata for 1 packages
+
+[Info  - 4:23:43 AM] 2022/12/21 04:23:43 go/packages.Load #1164
+	snapshot=1181
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:43 AM] 2022/12/21 04:23:43 go/packages.Load #1164
+	snapshot=1181
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:43 AM] 2022/12/21 04:23:43 go/packages.Load #1164: updating metadata for 0 packages
+
+[Error - 4:23:43 AM] 2022/12/21 04:23:43 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:23:44 AM] 2022/12/21 04:23:44 go/packages.Load #1165
+	snapshot=1182
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:44 AM] 2022/12/21 04:23:44 go/packages.Load #1165
+	snapshot=1182
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:44 AM] 2022/12/21 04:23:44 go/packages.Load #1165: updating metadata for 1 packages
+
+[Info  - 4:23:44 AM] 2022/12/21 04:23:44 go/packages.Load #1166
+	snapshot=1182
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:44 AM] 2022/12/21 04:23:44 go/packages.Load #1166
+	snapshot=1182
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:44 AM] 2022/12/21 04:23:44 go/packages.Load #1166: updating metadata for 0 packages
+
+[Error - 4:23:44 AM] 2022/12/21 04:23:44 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:23:45 AM] 2022/12/21 04:23:45 go/packages.Load #1167
+	snapshot=1185
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/service/app.go]
+	packages=1
+
+[Info  - 4:23:45 AM] 2022/12/21 04:23:45 go/packages.Load #1167
+	snapshot=1185
+	directory=file:///home/myhuamobboss
+	package="aroundstore/service"
+	files=[/home/myhuamobboss/go/src/aroundstore/service/app.go]
+
+[Info  - 4:23:45 AM] 2022/12/21 04:23:45 go/packages.Load #1167: updating metadata for 1 packages
+
+[Error - 4:23:45 AM] 2022/12/21 04:23:45 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:23:46 AM] 2022/12/21 04:23:46 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:23:46 AM] 2022/12/21 04:23:46 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:23:47 AM] 2022/12/21 04:23:47 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:23:48 AM] 2022/12/21 04:23:48 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:24:05 AM] 2022/12/21 04:24:05 background imports cache refresh starting
+
+[Info  - 4:24:05 AM] 2022/12/21 04:24:05 background refresh finished after 4.765367ms
+
+[Error - 4:24:17 AM] 2022/12/21 04:24:17 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:23 AM] 2022/12/21 04:24:23 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:24 AM] 2022/12/21 04:24:24 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:25 AM] 2022/12/21 04:24:25 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:26 AM] 2022/12/21 04:24:25 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:27 AM] 2022/12/21 04:24:27 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:27 AM] 2022/12/21 04:24:27 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:43 AM] 2022/12/21 04:24:43 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:44 AM] 2022/12/21 04:24:44 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:45 AM] 2022/12/21 04:24:45 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/google/go-cmp v0.5.7
+go: downloading github.com/fortytw2/leaktest v1.3.0
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:24:46 AM] 2022/12/21 04:24:46 go/packages.Load #1170
+	snapshot=1210
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:46 AM] 2022/12/21 04:24:46 go/packages.Load #1170
+	snapshot=1210
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:46 AM] 2022/12/21 04:24:46 go/packages.Load #1170: updating metadata for 1 packages
+
+[Error - 4:24:46 AM] 2022/12/21 04:24:46 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/app.go:8:2: invalid import path: "aroundstore/se'r"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/app.go"
+
+[Error - 4:24:46 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 4:24:46 AM] 2022/12/21 04:24:46 background imports cache refresh starting
+
+[Info  - 4:24:46 AM] 2022/12/21 04:24:46 background refresh finished after 6.545182ms
+
+[Error - 4:24:46 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 4:24:47 AM] 2022/12/21 04:24:47 go/packages.Load #1175
+	snapshot=1213
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:47 AM] 2022/12/21 04:24:47 go/packages.Load #1175
+	snapshot=1213
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:47 AM] 2022/12/21 04:24:47 go/packages.Load #1175: updating metadata for 1 packages
+
+[Info  - 4:24:47 AM] 2022/12/21 04:24:47 go/packages.Load #1178
+	snapshot=1216
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:47 AM] 2022/12/21 04:24:47 go/packages.Load #1178
+	snapshot=1216
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:47 AM] 2022/12/21 04:24:47 go/packages.Load #1178: updating metadata for 1 packages
+
+[Error - 4:24:47 AM] 2022/12/21 04:24:47 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/app.go:8:2: invalid import path: "aroundstore/se'rv'c"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/app.go"
+
+[Error - 4:24:48 AM] 2022/12/21 04:24:48 imports fixes: AllImportsFixes: /home/myhuamobboss/go/src/aroundstore/handler/app.go:8:2: invalid import path: "aroundstore/se'rv'c"
+	file="/home/myhuamobboss/go/src/aroundstore/handler/app.go"
+
+[Info  - 4:24:48 AM] 2022/12/21 04:24:48 go/packages.Load #1180
+	snapshot=1217
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:48 AM] 2022/12/21 04:24:48 go/packages.Load #1180
+	snapshot=1217
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:48 AM] 2022/12/21 04:24:48 go/packages.Load #1180: updating metadata for 1 packages
+
+[Info  - 4:24:48 AM] 2022/12/21 04:24:48 go/packages.Load #1182
+	snapshot=1219
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:48 AM] 2022/12/21 04:24:48 go/packages.Load #1182
+	snapshot=1219
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:48 AM] 2022/12/21 04:24:48 go/packages.Load #1182: updating metadata for 1 packages
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1183
+	snapshot=1219
+	directory=file:///home/myhuamobboss
+	query=[aroundstore]
+	packages=1
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1183
+	snapshot=1219
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1183: updating metadata for 1 packages
+
+[Error - 4:24:49 AM] 2022/12/21 04:24:49 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1184
+	snapshot=1220
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1184
+	snapshot=1220
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1184: updating metadata for 1 packages
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1185
+	snapshot=1220
+	directory=file:///home/myhuamobboss
+	query=[file=/home/myhuamobboss/go/src/aroundstore/handler/app.go]
+	packages=1
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1185
+	snapshot=1220
+	directory=file:///home/myhuamobboss
+	package="aroundstore/handler"
+	files=[/home/myhuamobboss/go/src/aroundstore/handler/app.go /home/myhuamobboss/go/src/aroundstore/handler/router.go]
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1185: updating metadata for 0 packages
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1186
+	snapshot=1220
+	directory=file:///home/myhuamobboss
+	query=[aroundstore]
+	packages=1
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1186
+	snapshot=1220
+	directory=file:///home/myhuamobboss
+	package="aroundstore"
+	files=[/home/myhuamobboss/go/src/aroundstore/main.go]
+
+[Info  - 4:24:49 AM] 2022/12/21 04:24:49 go/packages.Load #1186: updating metadata for 1 packages
+
+[Error - 4:24:49 AM] 2022/12/21 04:24:49 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:50 AM] 2022/12/21 04:24:50 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:24:51 AM] 2022/12/21 04:24:51 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:25:13 AM] 2022/12/21 04:25:13 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:25:16 AM] 2022/12/21 04:25:16 background imports cache refresh starting
+
+[Info  - 4:25:16 AM] 2022/12/21 04:25:16 background refresh finished after 6.369299ms
+
+[Error - 4:25:59 AM] 2022/12/21 04:25:59 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:26:01 AM] 2022/12/21 04:26:01 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:26:01 AM] 2022/12/21 04:26:01 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:26:12 AM] 2022/12/21 04:26:12 background imports cache refresh starting
+
+[Info  - 4:26:12 AM] 2022/12/21 04:26:12 background refresh finished after 5.584446ms
+
+[Error - 4:26:16 AM] 2022/12/21 04:26:16 tidy: diagnosing file:///home/myhuamobboss/go/src/aroundstore/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading github.com/google/go-cmp v0.5.7
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+aroundstore/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+
+
+[Info  - 4:26:45 AM] 2022/12/21 04:26:45 background imports cache refresh starting
+
+[Info  - 4:26:45 AM] 2022/12/21 04:26:45 background refresh finished after 5.781764ms
+
+[Info  - 4:28:07 AM] 2022/12/21 04:28:07 Shutdown session
+	shutdown_session=1
+

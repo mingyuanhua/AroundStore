@@ -2,3 +2,4 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 update.code.visualstudio.com	0	0	1671302982	31536000
+artifacts.elastic.co	0	1	1671592278	31536000

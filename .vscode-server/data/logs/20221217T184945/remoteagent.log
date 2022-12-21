@@ -71,3 +71,7 @@
 2022-12-17 23:20:44.380 [info] Uninstalling extension from the profile: golang.go-nightly@2022.12.1322 file:///home/myhuamobboss/.vscode-server/data/User/extensions.json
 2022-12-17 23:20:44.402 [info] Marked extension as uninstalled golang.go-nightly-2022.12.1322
 2022-12-17 23:20:44.507 [info] Successfully uninstalled extension from the profile golang.go-nightly@2022.12.1322 file:///home/myhuamobboss/.vscode-server/data/User/extensions.json
+2022-12-17 23:51:05.058 [info] [127.0.0.1][2720b37c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-17 23:51:05.123 [info] [127.0.0.1][b8981dc5][ExtensionHostConnection] <30641> Extension Host Process exited with code: 0, signal: null.
+2022-12-17 23:51:05.123 [info] Last EH closed, waiting before shutting down
+2022-12-17 23:56:05.124 [info] Last EH closed, shutting down

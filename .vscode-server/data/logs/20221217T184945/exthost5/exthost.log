@@ -126,3 +126,69 @@ These files will be FOREVER LOST if you proceed.
 2022-12-17 23:47:45.546 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
 2022-12-17 23:47:45.546 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
 2022-12-17 23:47:45.546 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 23:49:09.372 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 23:49:09.374 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 23:49:09.387 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 23:49:09.387 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 23:49:09.387 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 23:49:12.496 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 23:49:12.571 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 23:49:12.586 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 23:49:12.586 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 23:49:12.586 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 23:49:14.427 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2022-12-17 23:49:14.429 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2022-12-17 23:49:14.442 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2022-12-17 23:49:14.442 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2022-12-17 23:49:14.442 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2022-12-17 23:51:05.048 [info] Extension host terminating: received terminate message from renderer
+2022-12-17 23:51:05.049 [info] Lock '/home/myhuamobboss/.vscode-server/data/User/workspaceStorage/025036779a3188e9d6d0917040f3c018/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-17 23:51:05.084 [error] Canceled: Canceled
+	at Object.R [as canceled] (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:7:1054)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:104:7869
+	at Array.forEach (<anonymous>)
+	at u.dispose (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:104:7834)
+	at d.terminate (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:106:9540)
+	at f.terminate (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:110:1397)
+	at b (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:120:17815)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:120:15750
+	at d.invoke (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at v.deliver (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at v.deliver (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at d.invoke (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at v.deliver (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.t (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:25895) git.commit {"value":"vscode.git","c":"vscode.git"}
+2022-12-17 23:51:05.086 [error] Canceled: Canceled
+	at Object.R [as canceled] (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:7:1054)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:104:7869
+	at Array.forEach (<anonymous>)
+	at u.dispose (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:104:7834)
+	at d.terminate (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:106:9540)
+	at f.terminate (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:110:1397)
+	at b (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:120:17815)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:120:15750
+	at d.invoke (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at v.deliver (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:14314)
+	at c.y (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:17324)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:15795
+	at d.invoke (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at v.deliver (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.acceptChunk (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:12045)
+	at /home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:11332
+	at d.invoke (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at v.deliver (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at g.fire (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at g.t (/home/myhuamobboss/.vscode-server/bin/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/out/vs/workbench/api/node/extensionHostProcess.js:72:25895) __vsclbsiuh34 undefined
+2022-12-17 23:51:05.105 [info] Extension host with pid 30641 exiting with code 0
