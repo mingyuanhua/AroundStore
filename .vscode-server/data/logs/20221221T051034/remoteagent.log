@@ -1,0 +1,5 @@
+2022-12-21 05:10:34.490 [info] Extension host agent started.
+2022-12-21 05:10:34.617 [info] Deleted from disk golang.go /home/myhuamobboss/.vscode-server/extensions/golang.go-0.36.0
+2022-12-21 05:10:34.641 [info] [127.0.0.1][3d34121c][ManagementConnection] New connection established.
+2022-12-21 05:10:34.719 [info] [127.0.0.1][503cedec][ExtensionHostConnection] New connection established.
+2022-12-21 05:10:34.733 [info] [127.0.0.1][503cedec][ExtensionHostConnection] <8166> Launched Extension Host Process.

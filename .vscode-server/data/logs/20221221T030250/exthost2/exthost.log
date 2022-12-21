@@ -131,3 +131,12 @@
 2022-12-21 05:08:43.003 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
 2022-12-21 05:09:39.230 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
 2022-12-21 05:09:44.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:09:49.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:09:54.879 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:10:00.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:10:05.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:10:10.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:10:15.591 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1952
+2022-12-21 05:10:20.091 [info] Extension host terminating: received terminate message from renderer
+2022-12-21 05:10:20.092 [info] Lock '/home/myhuamobboss/.vscode-server/data/User/workspaceStorage/025036779a3188e9d6d0917040f3c018/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-21 05:10:20.123 [info] Extension host with pid 3686 exiting with code 0

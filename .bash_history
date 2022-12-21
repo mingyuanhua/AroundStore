@@ -59,3 +59,5 @@ sudo /usr/share/elasticsearch/bin/elasticsearch-users useradd mingyuan -p mingyu
 sudo /usr/share/elasticsearch/bin/elasticsearch-users useradd mingyuanhua -p mingyuanhua -r superuser
 cd go/src/aroundstore/
 go run main.go
+sudo vim
+sudo git add -A -- .

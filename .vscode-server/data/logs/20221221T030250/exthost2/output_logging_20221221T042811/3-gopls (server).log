@@ -139,3 +139,6 @@ aroundstore/backend imports
 	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
 
 
+[Info  - 5:10:20 AM] 2022/12/21 05:10:20 Shutdown session
+	shutdown_session=1
+
